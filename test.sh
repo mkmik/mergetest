@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+echo testing...
+sleep 120
+
 want=2
 got=$(ls -l *.txt | wc -l)
 
