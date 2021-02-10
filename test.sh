@@ -5,7 +5,7 @@ set -euo pipefail
 echo testing...
 sleep 5
 
-want=3
+want=4
 got=$(ls -l *.txt | wc -l)
 
 if (( "${got}" != "${want}" )); then
